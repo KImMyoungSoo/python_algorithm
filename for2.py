@@ -10,3 +10,18 @@ for i in enumerate(a):
 
 for index, value in enumerate(a):
 	print(index, value)
+
+if all(60>x for x in a) :
+	print("True")
+else :
+	print("False")
+
+if all(50>x for x in a) :
+	print("True")
+else :
+	print("False")
+
+if any(50>x for x in a) :
+	print("True")
+else :
+	print("False")
