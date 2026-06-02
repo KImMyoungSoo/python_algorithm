@@ -32,7 +32,7 @@ class BST:
 
         cur = self.root
 
-        while cur is not null :
+        while True :
             if data < cur.data :
                 if cur.left is None :
                     cur.left = Node(data)
