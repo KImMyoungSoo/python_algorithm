@@ -6,7 +6,7 @@ for i in range(5):
 a = [23,12,36,53,19]
 
 for i in enumerate(a):
-	print(i)
+	print('e: ',i)
 
 for index, value in enumerate(a):
 	print(index, value)
