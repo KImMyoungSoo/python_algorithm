@@ -8,7 +8,6 @@ def solution(elements):
             answer.append(temp)
 
     answer = list(set(answer))
-    print(answer)
     
     count = len(answer)
     return count
