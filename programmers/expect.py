@@ -1,5 +1,3 @@
-import time
-
 def solution(n,a,b):
     answer = 0
     seq = ['x']*n
@@ -22,8 +20,6 @@ def solution(n,a,b):
                 else :
                     arr[idx] = 'x'
             seq = arr
-            print(arr)
-            time.sleep(2)
     return answer
 
 n = 8

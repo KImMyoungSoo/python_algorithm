@@ -9,8 +9,8 @@ def solution(n, words):
             answer.append(words[i])
         else :
             return [arr[i],i//n+1]
-        print(i,n)
-        print(answer)
+        # print(i,n)
+        # print(answer)
     else :
         return [0,0]
 
